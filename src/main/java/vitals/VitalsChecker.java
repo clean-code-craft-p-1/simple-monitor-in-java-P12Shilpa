@@ -2,7 +2,7 @@ package vitals;
 
 
 public abstract class VitalsChecker {
-  static void alertBlink() throws InterruptedException {
+  private static void alertBlink() throws InterruptedException {
     for (int i = 0; i < 6; i++) {
       System.out.print("\r* ");
       Thread.sleep(1000);
